@@ -1,0 +1,116 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: url("http://www.edilzetacesena.it/wp-content/uploads/2016/01/ivory-off-white-paper-texture.jpg") no-repeat center center fixed;
+}
+
+.campform {
+  border: solid rgba(48, 193, 167) 2px;
+  width: 380px;
+  height: 460px;
+  margin: 50px auto;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(48, 193, 167, .3);
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #ED7A0E;
+}
+
+h2 span { 
+  background-color: rgb(253, 254, 254, .5); 
+  border-radius: 7px;
+  font-size: 26px;
+  font-family: 'Freckle Face', cursive;
+}
+
+h4 {
+  text-align: center;
+  color: #585855;
+  font-size: .9em;
+  margin: 3%;
+  font-family: 'Arimo', sans-serif;
+}
+
+input {
+  max-width: 200px;
+  display: flex;
+  border: solid rgba(48, 193, 167) 2px;
+  border-radius: 7px;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gender {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.enter {
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+  color: #585855;
+  font-size: .9em;
+  margin-top: 10px;
+}
+
+.imageSelect {
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+  color: #585855;
+  font-size: .9em;
+  margin-top: 20px;
+}
+
+.age {
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+  color: #585855;
+  font-size: .9em;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.dropdown {
+  width: 40px;
+  display: flex;
+  margin-top: 0;
+  border-radius: 7px;
+  height: 20px;
+}
+
+#Boy {
+  height: 80px;
+  width: 80px;
+}
+
+#Girl {
+  height: 80px;
+  width: 80px;
+}
+
+.changeBackground { background-color: #336699; }
+.changeBackground.green { background-color: #00cc00; }
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: solid;
+  margin-top: 1em;
+}
+
+.submit {
+  margin-top: 25px;
+}
